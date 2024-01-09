@@ -1,0 +1,188 @@
+*{
+    font-family: Garamond;
+
+}
+.navbar{
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+.one{
+    height: 56px;
+}
+.text{
+    margin: 10%;
+}
+.two .three .four{
+    height: auto;
+}
+.lnk{
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(55, 55, 55, 0.26);
+}
+.contact{
+    margin-left: auto;
+}
+.contentImg{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.bonfire{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+.gallery{
+    margin: 3%;
+    text-align: center;
+}
+.six{
+    height: auto;
+    overflow: hidden;
+}
+.carousel-item{
+    height: 400px;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+.block{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background: rgba(134, 134, 134, 0.78);
+    color: white;
+    display:none;
+}
+.divBlock{
+    position: absolute;
+    height: 150px;
+    margin-top: 125px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+
+
+}
+.carousel-item:hover .block{
+    display: block;
+}
+.sub2{
+    background-color: rgba(0, 0, 0, 0.203);
+    color: white;
+    border-color: white;
+    width: 100px;
+    height: 50px;
+}
+.x, .x1, .x2, .x3, .x4, .x5, .x6{
+    text-align: center;
+    height: 400px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.features{
+   height: 50%;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5%;
+
+}
+
+.eight{
+    margin-top: 200px;
+    height: auto;
+}
+textarea{
+    height: 150px;
+}
+.sub3{
+    float: right;
+    width: 100px;
+    height: 50px;
+}
+.nine{
+    height: 300px;
+}
+.foot{
+    text-align: center;
+}
+form{
+    margin-bottom: 5%;
+}
+.fig{
+    float:right;
+}
+.contact2{
+    border: 1px solid rgba(0, 0, 0, 0.282);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 1%;
+}
+.contact2:hover{
+    display: block;
+    background:rgba(0, 0, 0, 0.329);
+}
+.lnk2{
+    width: 15px;
+    height: 15px;
+    margin-top: 15%;
+    margin-right: 8%;
+}
+
+
+@media (max-width: 575.98px) {
+    .x, .x2, .x3, .x4, .x5{
+        border-bottom: 1px solid black;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .x, .x2, .x3, .x4, .x5{
+        border-bottom: 1px solid black;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .x, .x2, .x3, .x4, .x5{
+        border-bottom: 1px solid black;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .x, .x2, .x3, .x4{
+        border-bottom: 1px solid black;
+    }
+    .x, .x3, .x5{
+        border-right: 1px solid black;
+    }
+}
+@media (min-width: 1200px) {
+    .x, .x2, .x3{
+        border-bottom: 1px solid black;
+    }
+    .x, .x2, .x4, .x5{
+        border-right: 1px solid black;
+    }
+}
+
+
